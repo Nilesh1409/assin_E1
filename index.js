@@ -90,7 +90,7 @@ app.use(express.json());
 
 
 
-// app.use(getIp);
+app.use(getIp);
 main().then(() => {
     app.listen(8080,() => console.log('Port started listing at http://localhost:8080'))
 })
