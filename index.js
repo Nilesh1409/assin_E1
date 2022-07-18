@@ -83,7 +83,7 @@ app.use(express.json());
 
   app.post('/products/create',handlePost)
   app.get('/products',getAllProduct)
-  app.get('/products/:id',deleteProduct)
+  app.delete('/products/:id',deleteProduct)
   app.put('/products/:id',updateProduct)
 
 
